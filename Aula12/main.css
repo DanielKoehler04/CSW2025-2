@@ -1,0 +1,32 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#title{
+    color: rgb(10, 10, 180);
+    text-align: center;
+    font-size: 25px;
+}
+.title-right{
+    color: red;
+    text-align: end;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.title-left{
+    color: purple;
+    text-align: start;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.1s;
+}
+
+.title2{
+    color: green;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.hover:hover{
+    color: green;
+    cursor: pointer;
+}
