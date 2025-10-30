@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <label for="dateid">Insira sua data de nascimento</label>
+    <input id="dateid"type="text">
+    <select name="mes" id="mesid">
+        <option value="01">Janeiro</option>
+        <option value="02">Fevereiro</option>
+        <option value="03">Março</option>
+        <option value="04">Abril</option>
+        <option value="05">Maio</option>
+        <option value="06">Junho</option>
+        <option value="07">Julho</option>
+        <option value="08">Agosto</option>
+        <option value="09">Setembro</option>
+        <option value="10">Outubro</option>
+        <option value="11">Novembro</option>
+        <option value="12">Dezembro</option>
+        
+    </select>
+    <label for="ano">Ano</label>
+    <input type="text" id="ano">
+    <button type="submit" onclick="aparecerData()">Calcular</button>
+    
+    <script>
+        
+
+        function aparecerData(){
+            var dia = document.getElementById("dateid").value;
+            var mes = document.getElementById("mesid").value;
+            var ano = document.getElementById("ano").value;
+           
+            
+            alert("Data de nascimento: "+ dia + "/" + mes +"/" + ano)
+        }
+
+    </script>
+</body>
+</html>
